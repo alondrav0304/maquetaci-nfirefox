@@ -1,0 +1,307 @@
+/* Estilos Generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: white;
+}
+.ancho {
+  max-width: 1200px;
+  margin:auto;
+}
+.margen {
+  padding: 15px;
+}
+/* Cabecera */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download a {
+  margin-left: 20px;
+  font-size: 16px;
+  color: #0D0CFE;
+  background-color: white;
+  border: 2px solid #0D0CFE;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  border-bottom: 2px solid #333;
+  justify-content: space-between;
+  align-items: center;  /* Alinea todos los elementos verticalmente en el centro */
+}
+
+nav .logo {
+  margin-right: 10px;  /* Si necesitas espacio entre la imagen y los elementos */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Estilo de la sección */
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.text-content {
+  max-width: 60%;  /* Ajusta el ancho del contenido de texto */
+  text-align: left;
+}
+.logo {
+  width: 80px;  /* Tamaño pequeño para el logo de Firefox */
+  margin-bottom: 1px;  /* Espacio debajo del logo */
+}
+.firefox {
+  width: 200px;
+}
+h2 {
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.btn-descargar {
+  background-color: #0078ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;  /* Espacio debajo del botón */
+  display: inline-block;
+}
+
+.small-text {
+  font-size: 12px;
+  color: gray;
+  margin-top: 5px;  /* Espacio superior del texto pequeño */
+}
+
+.computadora {
+  width: 300px;  /* La imagen de la computadora ocupa el 40% del ancho de la sección */
+  max-width: 600px;  /* Limita el tamaño máximo de la imagen */
+}
+
+.hero {
+  padding: 40px 20px;
+}
+
+.imagen-destacada img {
+  width: 80%;
+  max-width: 600px;
+}
+
+/* Sección del Dinosaurio */
+.security-section {
+  display: flex;
+  align-items: center; /* Alinea verticalmente la imagen con el h2 */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  background-color: #f7f7f7; /* Fondo gris bajo */
+  padding: 40px; /* Espaciado interno */
+  gap: 40px; /* Espacio entre la imagen y el texto */
+}
+
+/* Ajuste de la imagen */
+.dinosaurio {
+  width: 250px;
+  height: auto;
+}
+
+/* Contenedor del texto */
+.security-text {
+  text-align: center;
+  max-width: 450px;
+}
+
+/* Título específico de esta sección */
+.security-title {
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Párrafo de descripción */
+.security-description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 15px;
+  color: #555;
+}
+
+/* Secciones de Impacto e Innovación */
+.contenido {
+  width: 80%;
+  margin: auto;
+}
+
+.impacto, .innovacion {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  text-align: left;
+}
+
+h3 {
+  color: #0078ff;
+}
+
+.extras {
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.extra-item {
+  display: inline-block;
+  width: 30%; /* Asegura que los tres elementos estén en la misma línea */
+  vertical-align: top;
+  text-align: center;
+  padding: 10px;
+}
+
+.extra-item img {
+  width: 80px; /* Ajusta el tamaño de la imagen */
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.extra-item h3 {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.extra-item p {
+  font-size: 14px;
+  color: #555;
+}
+
+.contenedor_nosotros {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 0;
+  position: relative;
+}
+.impacto, .innovaciones {
+  flex: 1;
+  max-width: 500px;
+  padding: 0 20px;
+}
+.impacto h1, .innovaciones h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c2c2c;
+  margin-bottom: 15px;
+}
+.impacto p, .innovaciones p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 15px;
+}
+.impacto ul, .innovaciones ul {
+  padding-left: 20px;
+}
+.impacto ul li, .innovaciones ul li {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+.impacto ul li a, .innovaciones ul li a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+.impacto ul li a:hover, .innovaciones ul li a:hover {
+  text-decoration: underline;
+}
+.impacto ul li::marker, .innovaciones ul li::marker {
+  color: blue;
+  font-size: 18px;
+}
+.contenedor_nosotros::before {
+  content: "";
+  width: 2px;
+  height: 350px;
+  background-color: #ccc;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.contenedor_formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 0;
+}
+.formulario input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.imagenasd {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.imagenasd img {
+  width: 300px;
+  max-width: 250px;
+  height: auto;
+}
+.btn_enviar{
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
